@@ -27,5 +27,6 @@ app.use((err: any, req, res, next) => {
 app.set('port', process.env.PORT || 3000);
 
 var server = app.listen(app.get('port'), function () {
-    console.info('Express server is now listening on port ' + server.address().port);
+    console.info('Server is running on:');
+    console.info("http://127.0.0.1:" + server.address().port);
 });
