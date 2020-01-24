@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es6"],
+    "declarationMap": true,
+    "declaration": true,
+    "declarationDir": "build",    
+    "sourceMap": true,
+    "inlineSources": true,
+    "listEmittedFiles": true,
+    "pretty": true,
+    "outDir": "build",
+    "listFiles": true,
+    //"watch": true
+  },
+  "exclude": [    
+    "build",
+    "node_modules"
+  ],
+  "include": [
+    "src/*"
+  ]
+}
